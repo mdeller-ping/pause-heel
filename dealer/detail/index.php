@@ -49,16 +49,6 @@
     </div>
     <!-- /hero banner -->
 
-    <div class="card">
-        <div class="card-header">
-          All Headers
-        </div>
-        <ul class="list-group list-group-flush">
-<?php foreach (getallheaders() as $key=>$value) { ?>
-    <li class="list-group-item"><?php echo $key?>: <?php echo $value ?></li>
-<?php } ?>
-        </ul>
-    </div>
 
     <!-- footer -->
     <nav class="navbar navbar-light bg-light mt-5">

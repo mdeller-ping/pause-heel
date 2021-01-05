@@ -47,14 +47,6 @@
     </nav>
     <!-- /navigation -->
 
-    <div class="container-fluid" style="height:575px; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), background-repeat:no-repeat; background-position:center top;">
-        <div class="container" style="padding: 300px 0px">
-            <h1 class="display-4 text-white text-right">Something You Know</h1>
-            <h1 class="display-4 text-white text-right">Something You Have</h1>
-            <h1 class="display-4 text-white text-right">Something You Are</h1>
-        </div>
-    </div>
-
     <!-- hero banner -->
     <div class="jumbotron jumbotron-fluid mb-n1">
         <div class="container">

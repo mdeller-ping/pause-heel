@@ -59,7 +59,6 @@ $response = \Httpful\Request::get($url)
 $responseData = json_decode($response);
 $responsePretty = json_encode($responseData, JSON_PRETTY_PRINT);
 
-
 ?>
 
 
@@ -76,6 +75,7 @@ $responsePretty = json_encode($responseData, JSON_PRETTY_PRINT);
     </div>
     <!-- /hero banner -->
 
+    <a href="#" onclick="toggleRaw();">Toggle Raw</a><br>
 
     <!-- footer -->
     <nav class="navbar navbar-light bg-light mt-5">

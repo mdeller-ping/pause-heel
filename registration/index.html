@@ -77,6 +77,12 @@
                     <input type="text" class="form-control" id="inputLastName" required>
                 </div>
             </div>
+            <div class="form-row collapse" id='dealerDiv'>
+                <div class="form-group col-md-6">
+                    <label for="inputDealerName">Dealer Name</label>
+                    <input type="text" class="form-control" id="inputDealerName" required>
+                </div>
+            </div>
             <div class="form-row">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="ricohDealerCheckbox">
@@ -185,8 +191,12 @@
             $('#ricohDealerCheckbox').change(function() {
                 if($(this).is(":checked")) {
                     console.log ('checked');
+                    $('#dealerDiv').show();
+
                 } else {
                     console.log ('unchecked');
+                    $('#dealerDiv').hide();
+
                 }
             });
         });

@@ -40,7 +40,7 @@
             </ul>
             <ul class="navbar-nav text-right mt-4">
                 <li class="nav-item">
-                    <a href="/registration/" class="btn btn-secondary ml-2">Logout</a>
+                    <a href="/pa/oidc/logout" class="btn btn-secondary ml-2">Logout</a>
                 </li>
             </ul>
         </div>

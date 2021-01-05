@@ -79,8 +79,8 @@
             </div>
             <div class="form-row">
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="ricohDealer">
-                    <label class="form-check-label" for="ricohDealer">I am a Ricoh Dealer</label>
+                    <input type="checkbox" class="form-check-input" id="ricohDealerCheckbox">
+                    <label class="form-check-label" for="ricohDealerCheckbox">I am a Ricoh Dealer</label>
                   </div>
             </div>
 
@@ -179,6 +179,17 @@
         let authHeader = 'Y249YWRtaW5pc3RyYXRvcjoyRmVkZXJhdGVNMHJl';
         let pingDirectory = 'ricoh-pingdirectory.ping-devops.com';
         let parentDn = 'ou=people,dc=example,dc=com';
+
+        $(document).ready(function() {
+            console.log ('doc ready function');
+            $('#ricohDealerCheckbox').change(function() {
+                if($(this).is(":checked")) {
+                    console.log ('checked');
+                } else {
+                    console.log ('unchecked');
+                }
+            });
+        });
 
         function submitPage1() {
             console.log('submitPage1 function called');

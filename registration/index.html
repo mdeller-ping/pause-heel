@@ -211,14 +211,27 @@
             lastName = $('#inputLastName').val();
             ricohDealerDN = $('#inputDealerDN').val()
 
-            var data = {
-                "_parentDN": parentDn,
-                "objectClass": ["ricohPerson"],
-                "givenName": [firstName],
-                "sn": [lastName],
-                "cn": [firstName + " " + lastName],
-                "ricohRelatedDealerDN": [ricohDealerDN]
+            if (ricohDealerDN ==="") {
+                var data = {
+                    "_parentDN": parentDn,
+                    "objectClass": ["ricohPerson"],
+                    "givenName": [firstName],
+                    "sn": [lastName],
+                    "cn": [firstName + " " + lastName],
+                }
+            } else {
+                var data = {
+                    "_parentDN": parentDn,
+                    "objectClass": ["ricohPerson"],
+                    "givenName": [firstName],
+                    "sn": [lastName],
+                    "cn": [firstName + " " + lastName],
+                    "ricohRelatedDealerDN": [ricohDealerDN],
+                    "ds-pwp-account-disabled": [true]
+                }
             }
+
+
 
             var settings = {
                 "url": "https://" + pingDirectory + "/directory/v1",

@@ -210,6 +210,7 @@
 
             firstName = $('#inputFirstName').val();
             lastName = $('#inputLastName').val();
+            ricohDealerDN = $('#inputDealerDN').val()}
 
             var data = {
                 "_parentDN": parentDn,
@@ -217,6 +218,7 @@
                 "givenName": [firstName],
                 "sn": [lastName],
                 "cn": [firstName + " " + lastName],
+                "ricohRelatedDealerDN": [ricohDealerDN]
             }
 
             var settings = {

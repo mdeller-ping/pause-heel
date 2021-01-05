@@ -40,12 +40,6 @@
             </ul>
             <ul class="navbar-nav text-right mt-4">
                 <li class="nav-item">
-                    <a href="https://ricoh-member.ping-devops.com" class="btn btn-outline-dark">Member</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://ricoh-dealer.ping-devops.com" class="btn btn-outline-dark ml-2">Dealer</a>
-                </li>
-                <li class="nav-item">
                     <a href="/registration/" class="btn btn-secondary ml-2">Logout</a>
                 </li>
             </ul>

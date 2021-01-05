@@ -50,8 +50,7 @@
     <!-- hero banner -->
     <div class="jumbotron jumbotron-fluid mb-n1">
         <div class="container">
-            <h1 class="display-4">Two great things about your Brand &reg;</h1>
-            <p class="lead">Absolutely. Amazing. Incredible. That's Three.</p>
+            <h1 class="display-4">Dealer Portal</h1>
         </div>
     </div>
     <!-- /hero banner -->
@@ -65,17 +64,6 @@
     <li class="list-group-item"><?php echo $key?>: <?php echo $value ?></li>
 <?php } ?>
         </ul>
-    </div>
-
-
-    <div class="container mt-5">
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem dolor sed viverra ipsum. Amet nisl suscipit adipiscing bibendum est ultricies integer. Molestie a iaculis at erat
-            pellentesque. Ornare arcu odio ut sem nulla. Tristique senectus et netus et malesuada fames. In nibh mauris cursus mattis molestie a iaculis at. Massa tempor nec feugiat nisl pretium fusce id. In metus vulputate eu scelerisque felis imperdiet.
-            Porta lorem mollis aliquam ut porttitor leo a. Viverra accumsan in nisl nisi. Turpis in eu mi bibendum neque egestas congue quisque egestas. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Neque viverra justo nec
-            ultrices dui sapien eget mi proin. Maecenas pharetra convallis posuere morbi.</p>
-        <p class="lead">Viverra vitae congue eu consequat ac. Nam libero justo laoreet sit. Malesuada proin libero nunc consequat interdum varius sit. Facilisi morbi tempus iaculis urna id. Sed arcu non odio euismod lacinia at quis risus. Molestie at elementum eu facilisis.
-            Justo donec enim diam vulputate ut. Duis ut diam quam nulla porttitor massa. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Et odio pellentesque diam volutpat. Non quam lacus suspendisse faucibus interdum. Nunc lobortis
-            mattis aliquam faucibus purus in massa. Sagittis id consectetur purus ut faucibus pulvinar.</p>
     </div>
 
     <!-- footer -->

@@ -56,6 +56,18 @@
     </div>
     <!-- /hero banner -->
 
+    <div class="card">
+        <div class="card-header">
+          All Headers
+        </div>
+        <ul class="list-group list-group-flush">
+<?php foreach (getallheaders() as $key=>$value) { ?>
+    <li class="list-group-item"><?php echo $key?>: <?php echo $value ?></li>
+<?php } ?>
+        </ul>
+    </div>
+
+
     <div class="container mt-5">
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem dolor sed viverra ipsum. Amet nisl suscipit adipiscing bibendum est ultricies integer. Molestie a iaculis at erat
             pellentesque. Ornare arcu odio ut sem nulla. Tristique senectus et netus et malesuada fames. In nibh mauris cursus mattis molestie a iaculis at. Massa tempor nec feugiat nisl pretium fusce id. In metus vulputate eu scelerisque felis imperdiet.

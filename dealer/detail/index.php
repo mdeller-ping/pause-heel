@@ -45,7 +45,7 @@
 <?php
 
 
-// $url = "https://dir.tu.demoenvi.com:8443/consent/v1/consents/" . $consentId;
+$url = "https://ricoh-pingdirectory.ping-devops.com:443/directory/v1/entryUUID=e0c7ea48-ff35-48ac-aace-c93092036bd6,ou=persons,dc=example,dc=com?expand=ricohRelatedDealerDN";
 
 // $response = \Httpful\Request::get($url)
 // ->authenticateWith('cn=Directory Manager', '2FederateM0re')

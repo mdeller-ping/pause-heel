@@ -2,6 +2,8 @@
 
 # simple script to hawk my github and publish to my remote servers
 
+cd pause-heel
+
 while [ 5 -eq 5 ]
 do
   if git pull | grep 'Already up to date.'
@@ -9,7 +11,7 @@ do
     echo ''
   else
     echo 'updated'
-    cp -r pause-heel/www/* /usr/share/nginx/html/
+    cp -r www/* /usr/share/nginx/html/
   fi
 
   sleep 10

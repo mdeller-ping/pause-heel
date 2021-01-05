@@ -45,19 +45,19 @@
 <?php
 
 
-$url = "https://dir.tu.demoenvi.com:8443/consent/v1/consents/" . $consentId;
+// $url = "https://dir.tu.demoenvi.com:8443/consent/v1/consents/" . $consentId;
 
-$response = \Httpful\Request::get($url)
-->authenticateWith('cn=Directory Manager', '2FederateM0re')
-->expectsJson()
-->send();
+// $response = \Httpful\Request::get($url)
+// ->authenticateWith('cn=Directory Manager', '2FederateM0re')
+// ->expectsJson()
+// ->send();
 
-// $status = "{$response->body->_embedded->consents[$x]->status}";
-// $version = "{$response->body->_embedded->consents[$x]->definition->version}";
-// $currentVersion = "{$response->body->_embedded->consents[$x]->definition->version}";
+// // $status = "{$response->body->_embedded->consents[$x]->status}";
+// // $version = "{$response->body->_embedded->consents[$x]->definition->version}";
+// // $currentVersion = "{$response->body->_embedded->consents[$x]->definition->version}";
 
-$responseData = json_decode($response);
-$responsePretty = json_encode($responseData, JSON_PRETTY_PRINT);
+// $responseData = json_decode($response);
+// $responsePretty = json_encode($responseData, JSON_PRETTY_PRINT);
 
 ?>
 
